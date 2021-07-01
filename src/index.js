@@ -26,7 +26,7 @@ fetch(breedUrl)
          anElement.innerText = key
         dogBreedContain.append(anElement)
     anElement.addEventListener("click", e => {
-       
+        anElement.style.color = "red"
     })
     })
 })
